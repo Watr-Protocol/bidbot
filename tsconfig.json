@@ -1,0 +1,11 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES2021"
+    },
+    "lib": [
+        // ... other libs
+        "ES2021"
+      ]
+}
