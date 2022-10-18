@@ -3,7 +3,7 @@
 This bot runs inside a docker container. It listens to events on the Polkadot network and places bids for a self funded account with key storage provided by AWS Secret Manager.
 ## Setup
 ### Prerequisites
-1. Reserve a paraID and upload your chain WASM as documented [here]().
+1. Reserve a paraID and upload your chain WASM as documented [here](https://docs.substrate.io/tutorials/connect-relay-and-parachains/connect-a-local-parachain/).
 2. Transfer funds to your bidding account
 ### Environment Variables
 `SLOT`: your paraID \
